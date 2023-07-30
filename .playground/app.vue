@@ -4,7 +4,8 @@ const { message } = useHello()
 
 <template>
     <div>
-        <h1>{{ message }}</h1>
+        <Hero />
+        <h1 class="font-extrabold">{{ message }}</h1>
         <Button>Test!</Button>
     </div>
 </template>
