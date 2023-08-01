@@ -1,7 +1,7 @@
 {
   "name": "mianchoui",
   "type": "module",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "./nuxt.config.ts",
   "scripts": {
     "dev": "nuxi dev .playground",
@@ -11,9 +11,7 @@
     "postinstall": "nuxt prepare .playground"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.8.0",
     "nuxt": "^3.6.2"
-  },
-  "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.8.0"
   }
 }
