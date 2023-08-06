@@ -4,9 +4,8 @@ const { message } = useHello();
 
 <template>
   <div>
-    <h1 class="font-extrabold">{{ message }}</h1>
     <div>
-      <Button>Test para la prueba de Boton!</Button>
+      <NuxtPage />
     </div>
   </div>
 </template>
