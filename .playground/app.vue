@@ -4,8 +4,6 @@ const { message } = useHello();
 
 <template>
   <div>
-    <div>
-      <NuxtPage />
-    </div>
+    <NuxtPage />
   </div>
 </template>
